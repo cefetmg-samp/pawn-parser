@@ -8,7 +8,7 @@ typedef struct {
     pp_type_t primitive_type;
     char is_const;
     char is_ref;
-	char is_arr;
+    char is_arr;
 } pp_arg_t;
 
 #endif

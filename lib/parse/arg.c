@@ -11,7 +11,7 @@ pp_arg_t * pp_parse_arg_from_pawn(const char * source) {
     const char is_const = strncmp(source, "const ", 6) == 0;
     const char *and_pos_ptr = strchr(source, '&');
     const char *colon_pos_ptr = strchr(source, ':');
-	const char *bracket_pos_ptr = strchr(source, '[');
+    const char *bracket_pos_ptr = strchr(source, '[');
     const char *equals_pos_ptr = strchr(source, '=');
 
     if (colon_pos_ptr != NULL) {
